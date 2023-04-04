@@ -42,7 +42,7 @@ export class UserStore {
     }
 
     setIsAuth(bol: boolean, user: decodedToken | null) {
-        this._socket = new WebSocket("ws://servermessenger.vmorshch8.repl.co/" +localStorage.getItem("token"))
+        this._socket = new WebSocket("wss://servermessenger.vmorshch8.repl.co/" +localStorage.getItem("token"))
         if (user) this.currentUser = user
         this._isAuth = bol
     }
