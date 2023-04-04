@@ -1,7 +1,7 @@
 import axios, {AxiosInstance, AxiosRequestConfig} from "axios"
 
 
-export const baseURL = "http://localhost:5000/"
+export const baseURL = "https://servermessenger.vmorshch8.repl.co/"
 export const $host: AxiosInstance = axios.create({
     baseURL: baseURL
 })
