@@ -51,7 +51,7 @@ const UserModal = ({active, onHide}: props) => {
             {chosenUser?._id != userStore?.currentUser?._id
                 &&
                 <div>
-                    <button onClick={addHandler}>Добавить в контакты</button>
+                    <button onClick={addHandler}>додати в контакти</button>
                 </div>
             }
         </div>

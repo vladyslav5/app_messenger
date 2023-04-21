@@ -30,7 +30,7 @@ const ChatModal = ({chat, onHide}: props) => {
                 <img src={baseURL + chat.avatar}/>
                 <div>
                     <h2>{chat.name}</h2>
-                    <text>количество участников {chat.users.length}</text>
+                    <text>кількість учасників {chat.users.length}</text>
                 </div>
             </div>
             <div
@@ -44,7 +44,7 @@ const ChatModal = ({chat, onHide}: props) => {
             <div className={"Contact_wrap"} style={{display: active ? "block" : "none"}}>
                 {chat.users.map((user) => <ContactItem hide={onHide} user={user}/>)}
             </div>
-            <button onClick={leaveHandler}>Покинуть</button>
+            <button onClick={leaveHandler}>Покинути</button>
         </div>
     );
 };

@@ -17,7 +17,7 @@ const FilesInput = () => {
     const {chatStore} = useStore()
     const sendHandler = () => {
         if (!files) {
-            alert("выберете файлы")
+            alert("оберіть файли")
         } else if (_id) {
             console.log(files)
             const formData = new FormData();
@@ -67,7 +67,7 @@ const FilesInput = () => {
                         setFiles(e.target.files)
                         setFilesURL(res as string[])
                     }}/>
-                    <button onClick={sendHandler}>отправить</button>
+                    <button onClick={sendHandler}>відправити</button>
                 </div>
             </Modal>
         </div>

@@ -29,7 +29,7 @@ const Input = ({send}: props) => {
             <button onClick={() => {
                 send(value)
                 setValue("")
-            }}>отправить
+            }}>відправити
             </button>
             <AudioInput/>
         </>

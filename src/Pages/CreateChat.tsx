@@ -27,12 +27,12 @@ const CreateChat = () => {
             data.append("avatar", new Blob([file], {type: "image/jpg"}))
             createChat(data)
                 .then((res) => {
-                    alert("успешно создано")
+                    alert("успешіно створнено")
                     chatStore.addChat(res)
                     history(-1)
                 })
         } else {
-            alert("введите все данные")
+            alert("введіть данні")
         }
     }
     return (
@@ -45,7 +45,7 @@ const CreateChat = () => {
                 <input
                     value={chatName}
                     onChange={e => setChatName(e.target.value)}
-                    placeholder={"название чата"}
+                    placeholder={"назва чату"}
                 />
                 <input type="file" onChange={e =>
                     e.target.files && handleChangeFile(e.target.files[0])}/>
@@ -53,7 +53,7 @@ const CreateChat = () => {
                     <img src={fileURL}/>
                     <label>{chatName}</label>
                 </form>}
-                <button onClick={createHandler}>Создать</button>
+                <button onClick={createHandler}>созадати</button>
             </div>
         </Modal>
     );

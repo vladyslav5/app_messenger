@@ -43,7 +43,7 @@ const AudioInput = () => {
                     sendWS({message: result, chatId: _id})
                 })
         } else {
-            alert("запишите голосовое сообщение")
+            alert("запишить голосове повідомлення")
         }
     }
     return (
@@ -52,10 +52,10 @@ const AudioInput = () => {
             <button onClick={stop}>stop recording</button>
             {audioURL && <audio controls autoPlay src={audioURL}>
                 <source src={audioURL} type="audio/mpeg"/>
-                не поддеживается
+                не підтримується
             </audio>
             }
-            <button onClick={sendHandler}>отправить голосовое</button>
+            <button onClick={sendHandler}>відправити голосове повідомлення</button>
             <FilesInput/>
         </div>
     );

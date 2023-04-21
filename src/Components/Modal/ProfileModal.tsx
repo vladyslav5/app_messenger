@@ -50,14 +50,14 @@ const ProfileModal = () => {
             <div style={{display: isChange ? "block" : "none"}}>
                 <input type='file' onChange={e =>
                     e.target.files && handleChangeFile(e.target.files[0])}/>
-                <button onClick={saveHandler}>Сохранить</button>
+                <button onClick={saveHandler}>зберегти</button>
             </div>
             {isChange ? <button onClick={() => {
                     setIsChange(!isChange)
                     setAvatar(null)
                     setAvatarUrl(null)
                 }}>&#10008;</button>
-                : <button onClick={() => setIsChange(!isChange)}>Изменить фото профиля</button>}
+                : <button onClick={() => setIsChange(!isChange)}>змінити фото профіля</button>}
         </div>
     );
 };

@@ -20,7 +20,7 @@ const Navbar = ({active,setActive}:props) => {
             />
             <input
                 onKeyDown={onClickDown}
-                placeholder={"Поиск чатов"}
+                placeholder={"пошук чатів"}
             />
 
         </div>

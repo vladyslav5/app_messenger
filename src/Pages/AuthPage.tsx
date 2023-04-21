@@ -32,7 +32,7 @@ const AuthPage = () => {
     }
     return (
         <div className={"auth_wrap"}>
-            <h2>{isLogin ? "Вход" : "Регистрация"}</h2>
+            <h2>{isLogin ? "вхід" : "регістрація"}</h2>
             <input
                 placeholder={"login"}
                 value={nick}
@@ -48,10 +48,10 @@ const AuthPage = () => {
                 <button
                     onClick={clickHandler}
                 >
-                    {isLogin ? "Войти" : "Зарегистрироваться"}</button>
+                    {isLogin ? "зайти" : "зарегіструватися"}</button>
             </div>
             <NavLink
-                to={isLogin ? REGISTRATION_ROUTE : LOGIN_ROUTE}>{isLogin ? "Зарегистрироваться" : "Войти"}</NavLink>
+                to={isLogin ? REGISTRATION_ROUTE : LOGIN_ROUTE}>{isLogin ? "заругіструватися" : "зайти"}</NavLink>
         </div>
     );
 };

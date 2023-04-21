@@ -41,11 +41,11 @@ const ContentPart = ({item}:props) => {
     const {isAuth} = useStore().userStore
     return (
         <div className={"Content-wrap"}>
-            {!item ? <h1> выберите чат</h1> :
+            {!item ? <h1> оберіть чат</h1> :
                 <>
                     <ChatBar chat={item}/>
                     {item?.messages?.length === 0 ?
-                        <h2>здесь еще ничего нет</h2>
+                        <h2>немає чатів</h2>
                         :
                         <div ref={messageRef} className={"message_wrap"}>
                             {item?.messages?.map((message) =>

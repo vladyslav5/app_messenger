@@ -19,7 +19,7 @@ const JoinButton = () => {
                     history(MY_CHATS_ROUTE + "/" + _id )
                 }}
             >
-                Вступить
+                Вступити
             </button>
         </div>
     );

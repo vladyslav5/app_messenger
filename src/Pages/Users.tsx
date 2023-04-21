@@ -21,7 +21,7 @@ const Users = () => {
             setActive(bol)
             history(-1)
         }}>
-            <input placeholder={"найти пользователя"} onChange={(e)=>searchHandler(e.target.value)}/>
+            <input placeholder={"пошук користувача"} onChange={(e)=>searchHandler(e.target.value)}/>
             {users?.map((user)=><ContactItem user={user}/>)}
         </Modal>
     );

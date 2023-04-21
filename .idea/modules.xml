@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/app_messenger.iml" filepath="$PROJECT_DIR$/.idea/app_messenger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/anime_client.iml" filepath="$PROJECT_DIR$/.idea/anime_client.iml" />
     </modules>
   </component>
 </project>

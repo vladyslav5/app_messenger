@@ -27,7 +27,7 @@ const MyChats = () => {
     const myChats = chatStore.Chats
     return <Observer>{() => {
         return (
-            loading ? <div className={"appContainer"}>Загрузка</div> :
+            loading ? <div className={"appContainer"}>загрузка</div> :
                 <div className={"appContainer"}>
                     <Bar active={active} setActive={setActive} chats={myChats} route={MY_CHATS_ROUTE}/>
                     <ContentPart
