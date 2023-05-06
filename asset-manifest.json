@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "./static/css/main.cce378a9.css",
-    "main.js": "./static/js/main.bdff2287.js",
-    "index.html": "./index.html",
-    "main.cce378a9.css.map": "./static/css/main.cce378a9.css.map",
-    "main.bdff2287.js.map": "./static/js/main.bdff2287.js.map"
+    "main.css": "/vladyslav5.github.io/static/css/main.cce378a9.css",
+    "main.js": "/vladyslav5.github.io/static/js/main.bdff2287.js",
+    "index.html": "/vladyslav5.github.io/index.html",
+    "main.cce378a9.css.map": "/vladyslav5.github.io/static/css/main.cce378a9.css.map",
+    "main.bdff2287.js.map": "/vladyslav5.github.io/static/js/main.bdff2287.js.map"
   },
   "entrypoints": [
     "static/css/main.cce378a9.css",
